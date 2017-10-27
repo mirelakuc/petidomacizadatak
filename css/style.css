@@ -1,0 +1,62 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.article-image {
+	width: 100%;
+}
+
+.tekst {
+	border: 1px solid gray;
+	width: 80%;
+	margin: 0 auto;
+	background: #FFF;
+	position: relative;
+	top: -50px;
+	padding: 50px;
+}
+
+.tekst h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.tekst span {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.link-komentar {
+	color: #fba43f;
+	text-decoration: none;
+}
+
+.link-profil {
+	float: right;
+}
+
+.link-profil img {
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 840px) {
+	.article-image {
+		display: none;
+	}
+
+	.tekst {
+		border: none;
+		width: 100%
+	}
+}
